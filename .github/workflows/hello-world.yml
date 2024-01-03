@@ -4,6 +4,6 @@ jobs:
   hello-world-job:
     runs-on: unbuntu-latest
     steps:
-      - name: Check out repository code
+      - name: https://github.com/MioLemon/actions-learning-pathway.git
         uses: actions/checkout@v3
       - run: echo "$(cat hello_world.txt)"
